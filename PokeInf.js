@@ -513,6 +513,7 @@ async function Show_that_pokemon() {
 
 
   //MOBILE OPTIMASTION CODE
+  function Arrow(){
   if (windowWidth <= 590) {
     LeftarrowImg = document.createElement("img")
     LeftarrowImg.src = "imgs/LeftArrow.png"
@@ -529,12 +530,11 @@ async function Show_that_pokemon() {
 
   LeftArrow.addEventListener("click", function() {
     console.log("Left click")
-  })
 
 
   RightArrow.addEventListener("click", function() {
     console.log("Right click")
-  })
+  })  })}
   //MOBILE OPTIMASTION CODE
 
 
